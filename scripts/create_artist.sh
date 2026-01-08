@@ -1,6 +1,5 @@
 echo "Quel genre de musique?"
-read GENRE
-cd $GENRE
+read GENRE    
 echo "Nom de l'artiste?"
 read artist_name
-mkdir $artist_name
+mkdir -p $GENRE/$artist_name
