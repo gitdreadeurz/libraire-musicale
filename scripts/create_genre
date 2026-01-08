@@ -1,0 +1,13 @@
+
+echo "Quel genre de musiques ? (sans espaces)"
+read Genre
+while [[ "$Genre" =~ \  || -z "$Genre" ]]; do
+  echo "Erreur : pas d'espaces autorisés."
+  read Genre
+done
+mkdir ../$Genre
+cd $Genre
+touch ../$Genre/information.txt
+echo "Veuillez saisir une description"  
+read description
+echo $description >> ../$Genre/information.txt
