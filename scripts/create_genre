@@ -1,0 +1,8 @@
+echo "Quel genre de musiques ?"
+read Genre
+mkdir ../$Genre
+cd $Genre
+touch ../$Genre/information.txt
+echo "Veuillez saisir une description"  
+read description
+echo $description >> ../$Genre/information.txt
