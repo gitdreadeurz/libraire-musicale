@@ -1,16 +1,10 @@
-echo "Quel genre de musiques ? (sans espace)"
-read Genre
-#!/bin/bash
 
 echo "Quel genre de musiques ? (sans espaces)"
 read Genre
-
-# Empêcher les espaces
 while [[ "$Genre" =~ \  || -z "$Genre" ]]; do
   echo "Erreur : pas d'espaces autorisés."
   read Genre
 done
-
 mkdir ../$Genre
 cd $Genre
 touch ../$Genre/information.txt
