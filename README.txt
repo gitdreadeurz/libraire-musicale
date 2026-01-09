@@ -8,6 +8,7 @@ Afin de créer un sous dossier pour les artistes, lancez la commande ./create_ar
 
 Afin d'ajouter une chanson à un artiste, lancez la commande ./add_song.sh
 Si vous souhaitez ajouter des paroles lorsque cela vous est demandé, répondez 1
+Une fois vos paroles ajoutées, appuyez sur 2
 Si vous ne souhaitez pas ajouter de paroles lorsque cela vous est demandé, répondez 2
 Si vous ne souhaitez pas ajouter d'informations supplémentaires lorsque cela vous est demandé, appuyez simplement sur la touche entrée
 Veuillez indiquer le nom de l'artiste entre guillemets
