@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-Racine de la librairie musicale
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-Fichier de sortie à la racine
 OUTPUT="$ROOT/arborescence-musicale.txt"
 
 print_tree() {
@@ -42,7 +40,6 @@ print_tree() {
     done
 }
 
-Génération du fichier texte
 {
     echo "$(basename "$ROOT")/"
     print_tree "$ROOT" "" "true"
