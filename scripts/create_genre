@@ -6,7 +6,6 @@ while [[ "$Genre" =~ \  || -z "$Genre" ]]; do
   read Genre
 done
 mkdir ../$Genre
-cd $Genre
 touch ../$Genre/information.txt
 echo "Veuillez saisir une description"  
 read description
