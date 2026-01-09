@@ -7,7 +7,8 @@ Si le genre a un nom composé, utilisez un underscore à la place de l'espace, p
 Afin de créer un sous dossier pour les artistes, lancez la commande ./create_artist.sh
 
 Afin d'ajouter une chanson à un artiste, lancez la commande ./add_song.sh
-Si vous ne souhaitez pas ajouter de paroles lorsque cela vous est demandé, répondez simplement non
+Si vous souhaitez ajouter des paroles lorsque cela vous est demandé, répondez 1
+Si vous ne souhaitez pas ajouter de paroles lorsque cela vous est demandé, répondez 2
 Si vous ne souhaitez pas ajouter d'informations supplémentaires lorsque cela vous est demandé, appuyez simplement sur la touche entrée
 Veuillez indiquer le nom de l'artiste entre guillemets
 
