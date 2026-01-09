@@ -9,7 +9,7 @@ Ce script ne permet de créer des sous dossiers artiste que pour un seul genre m
 il faudra relancer le script
 
 Afin d'ajouter une chanson à un artiste, lancez la commande ./add_song.sh
-Si vous ne souhaitez pas ajouter de paroles lorsque cela vous est demandé, appuyez simplement sur la touche entrée
+Si vous ne souhaitez pas ajouter de paroles lorsque cela vous est demandé, répondez simplement non
 Si vous ne souhaitez pas ajouter d'informations supplémentaires lorsque cela vous est demandé, appuyez simplement sur la touche entrée
 
 Lorsque vous renseignez le nom d'un genre, d'un artiste, ou d'une chanson, si le nom est composé, utilisez des underscore à la place des espaces
