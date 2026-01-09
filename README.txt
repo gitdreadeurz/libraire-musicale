@@ -20,3 +20,11 @@ Afin de retrouver le titre d'une chanson, son artiste et son genre, à partir d'
 Afin d'afficher l'arborescence de fichiers, lancez la commande ./arborescence.sh
 
 Afin d'exporter votre libraire, lancez la commande ./export.sh
+
+En résumé:
+Créer un nouveau genre: ./create_genre
+Créer un sous dossier artiste: ./create_artist.sh
+Ajoutez une chanson à un artiste: ./add_song.sh
+Faire une recherche à partir de paroles de chanson: ./search.sh
+Afficher l'arborescence: ./arborescence.sh
+Exporter la libraire: ./export.sh
