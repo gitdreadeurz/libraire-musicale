@@ -3,7 +3,7 @@ read GENRE
 cd ../$GENRE
 echo "Nom de l'artiste?"
 read artist_name
-cd $artist_name
+cd "$artist_name"
 echo "Quel est le titre de la chanson ?"
 read titre
 touch "$titre.txt"
